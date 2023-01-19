@@ -26,4 +26,4 @@ Route::middleware('auth:sanctum')->group( function () {
     Route::resource('vrste', \App\Http\Controllers\VrstaController::class);
     Route::resource('ukusi', \App\Http\Controllers\UkusController::class);
     Route::resource('poslastice', \App\Http\Controllers\PoslasticaController::class);
-}); */ // poslednji commit- dodate ruteS
+}); */ // poslednji commit- dodate
