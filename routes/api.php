@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/* Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
@@ -26,4 +26,4 @@ Route::middleware('auth:sanctum')->group( function () {
     Route::resource('vrste', \App\Http\Controllers\VrstaController::class);
     Route::resource('ukusi', \App\Http\Controllers\UkusController::class);
     Route::resource('poslastice', \App\Http\Controllers\PoslasticaController::class);
-}); */ // poslednji commit- dodate
+}); 
